@@ -1,0 +1,1031 @@
+{
+  "credit": "Made by Pixel Perfectionists team",
+  "textureSize": [
+    96,
+    96
+  ],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [
+        0,
+        -4,
+        -3
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -3.5,
+            5,
+            -4,
+            7,
+            0,
+            9
+          ],
+          "textureOffset": [
+            23,
+            13
+          ]
+        },
+        {
+          "coordinates": [
+            -3.5,
+            3,
+            -4,
+            7,
+            3,
+            9
+          ],
+          "textureOffset": [
+            0,
+            13
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_head",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            5,
+            0
+          ],
+          "rotate": [
+            167.5,
+            0,
+            180
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -4,
+                -2,
+                -4,
+                8,
+                6,
+                8
+              ],
+              "uvNorth": [
+                72,
+                8,
+                80,
+                14
+              ],
+              "uvEast": [
+                64,
+                8,
+                72,
+                14
+              ],
+              "uvSouth": [
+                56,
+                8,
+                64,
+                14
+              ],
+              "uvWest": [
+                48,
+                8,
+                56,
+                14
+              ],
+              "uvUp": [
+                64,
+                0,
+                56,
+                8
+              ],
+              "uvDown": [
+                72,
+                8,
+                64,
+                0
+              ]
+            },
+            {
+              "coordinates": [
+                -4.2,
+                -2.2,
+                -4.2,
+                8.4,
+                6.4,
+                8.4
+              ],
+              "uvNorth": [
+                72,
+                24,
+                80,
+                30
+              ],
+              "uvEast": [
+                64,
+                24,
+                72,
+                30
+              ],
+              "uvSouth": [
+                56,
+                24,
+                64,
+                30
+              ],
+              "uvWest": [
+                48,
+                24,
+                56,
+                30
+              ],
+              "uvUp": [
+                64,
+                16,
+                56,
+                24
+              ],
+              "uvDown": [
+                72,
+                24,
+                64,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "eyes",
+      "id": "eyes",
+      "invertAxis": "xy",
+      "translate": [
+        -0.5,
+        -4,
+        -5
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            0.5,
+            6,
+            -3,
+            3,
+            2,
+            3
+          ],
+          "textureOffset": [
+            0,
+            0
+          ]
+        },
+        {
+          "coordinates": [
+            -3.5,
+            6,
+            -3,
+            3,
+            2,
+            3
+          ],
+          "textureOffset": [
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "part": "tongue",
+      "id": "tongue",
+      "invertAxis": "xy",
+      "translate": [
+        0,
+        -3.1,
+        -5
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -2,
+            3.1,
+            -2.1,
+            4,
+            0,
+            7
+          ],
+          "textureOffset": [
+            17,
+            13
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_tongue",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            3.1,
+            5
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -2,
+                1,
+                -8.2,
+                4,
+                0,
+                7
+              ],
+              "uvUp": [
+                52,
+                7,
+                48,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [
+        0,
+        -2,
+        -4
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -3.5,
+            1,
+            -4,
+            7,
+            3,
+            9
+          ],
+          "textureOffset": [
+            3,
+            1
+          ]
+        },
+        {
+          "coordinates": [
+            -3.5,
+            3,
+            -4,
+            7,
+            0,
+            9
+          ],
+          "textureOffset": [
+            23,
+            22
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_body",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            5,
+            0
+          ],
+          "rotate": [
+            167.5,
+            0,
+            180
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -4,
+                -4,
+                -4,
+                8,
+                2,
+                8
+              ],
+              "uvNorth": [
+                72,
+                14,
+                80,
+                16
+              ],
+              "uvEast": [
+                64,
+                14,
+                72,
+                16
+              ],
+              "uvSouth": [
+                56,
+                14,
+                64,
+                16
+              ],
+              "uvWest": [
+                48,
+                14,
+                56,
+                16
+              ],
+              "uvUp": [
+                64,
+                0,
+                56,
+                8
+              ],
+              "uvDown": [
+                72,
+                8,
+                64,
+                0
+              ]
+            },
+            {
+              "coordinates": [
+                -4.2,
+                -4.2,
+                -4.2,
+                8.4,
+                2,
+                8.4
+              ],
+              "uvNorth": [
+                72,
+                30,
+                80,
+                32
+              ],
+              "uvEast": [
+                64,
+                30,
+                72,
+                32
+              ],
+              "uvSouth": [
+                56,
+                30,
+                64,
+                32
+              ],
+              "uvWest": [
+                48,
+                30,
+                56,
+                32
+              ],
+              "uvUp": [
+                64,
+                16,
+                56,
+                24
+              ],
+              "uvDown": [
+                72,
+                24,
+                64,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "croaking_body",
+      "id": "croaking_body",
+      "invertAxis": "xy",
+      "translate": [
+        0,
+        -3,
+        1
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -3.5,
+            1.1,
+            -3.9,
+            7,
+            2,
+            3
+          ],
+          "textureOffset": [
+            26,
+            5
+          ],
+          "sizeAdd": -0.1
+        }
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [
+        4,
+        -3,
+        2.5
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -5,
+            0,
+            -3.5,
+            2,
+            3,
+            3
+          ],
+          "textureOffset": [
+            0,
+            32
+          ]
+        },
+        {
+          "coordinates": [
+            -8,
+            -0.01,
+            -7.5,
+            8,
+            0,
+            8
+          ],
+          "textureOffset": [
+            18,
+            40
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_left_arm",
+          "invertAxis": "xy",
+          "translate": [
+            -5.5,
+            1.5,
+            -4.5
+          ],
+          "rotate": [
+            0,
+            20,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -0.5,
+                -1.5,
+                -0.5,
+                3,
+                3,
+                3
+              ],
+              "uvNorth": [
+                83,
+                3,
+                86,
+                6
+              ],
+              "uvEast": [
+                83,
+                3,
+                80,
+                6
+              ],
+              "uvSouth": [
+                89,
+                3,
+                92,
+                6
+              ],
+              "uvWest": [
+                86,
+                3,
+                89,
+                6
+              ],
+              "uvUp": [
+                83,
+                3,
+                86,
+                0
+              ],
+              "uvDown": [
+                89,
+                0,
+                86,
+                3
+              ]
+            },
+            {
+              "coordinates": [
+                -0.7,
+                -1.7,
+                -0.7,
+                3.4,
+                3.4,
+                3.4
+              ],
+              "uvNorth": [
+                83,
+                9,
+                86,
+                12
+              ],
+              "uvEast": [
+                83,
+                9,
+                80,
+                12
+              ],
+              "uvSouth": [
+                89,
+                9,
+                92,
+                12
+              ],
+              "uvWest": [
+                86,
+                9,
+                89,
+                12
+              ],
+              "uvUp": [
+                83,
+                9,
+                86,
+                6
+              ],
+              "uvDown": [
+                89,
+                6,
+                86,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [
+        -4,
+        -3,
+        2.5
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            3,
+            0,
+            -3.5,
+            2,
+            3,
+            3
+          ],
+          "textureOffset": [
+            0,
+            38
+          ]
+        },
+        {
+          "coordinates": [
+            0,
+            -0.01,
+            -7.5,
+            8,
+            0,
+            8
+          ],
+          "textureOffset": [
+            2,
+            40
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_right_arm",
+          "invertAxis": "xy",
+          "translate": [
+            5.5,
+            1.5,
+            -4.5
+          ],
+          "rotate": [
+            0,
+            -20,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -2.5,
+                -1.5,
+                -0.5,
+                3,
+                3,
+                3
+              ],
+              "uvNorth": [
+                83,
+                15,
+                86,
+                18
+              ],
+              "uvEast": [
+                83,
+                15,
+                80,
+                18
+              ],
+              "uvSouth": [
+                89,
+                15,
+                92,
+                18
+              ],
+              "uvWest": [
+                86,
+                15,
+                89,
+                18
+              ],
+              "uvUp": [
+                83,
+                15,
+                86,
+                12
+              ],
+              "uvDown": [
+                89,
+                12,
+                86,
+                15
+              ]
+            },
+            {
+              "coordinates": [
+                -2.7,
+                -1.7,
+                -0.7,
+                3.4,
+                3.4,
+                3.4
+              ],
+              "uvNorth": [
+                83,
+                21,
+                86,
+                24
+              ],
+              "uvEast": [
+                83,
+                21,
+                80,
+                24
+              ],
+              "uvSouth": [
+                89,
+                21,
+                92,
+                24
+              ],
+              "uvWest": [
+                86,
+                21,
+                89,
+                24
+              ],
+              "uvUp": [
+                83,
+                21,
+                86,
+                18
+              ],
+              "uvDown": [
+                89,
+                18,
+                86,
+                21
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [
+        3.5,
+        -3,
+        -4
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            -5.5,
+            0,
+            2,
+            3,
+            3,
+            4
+          ],
+          "textureOffset": [
+            14,
+            25
+          ]
+        },
+        {
+          "coordinates": [
+            -9.5,
+            -0.01,
+            0,
+            8,
+            0,
+            8
+          ],
+          "textureOffset": [
+            2,
+            32
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_left_leg",
+          "invertAxis": "xy",
+          "translate": [
+            -2.5,
+            1,
+            3
+          ],
+          "rotate": [
+            0,
+            -15,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -2.5,
+                -1,
+                -0.5,
+                3,
+                2,
+                3
+              ],
+              "uvNorth": [
+                83,
+                27,
+                86,
+                29
+              ],
+              "uvEast": [
+                86,
+                27,
+                89,
+                29
+              ],
+              "uvSouth": [
+                89,
+                27,
+                92,
+                29
+              ],
+              "uvWest": [
+                80,
+                27,
+                83,
+                29
+              ],
+              "uvUp": [
+                86,
+                24,
+                83,
+                27
+              ],
+              "uvDown": [
+                89,
+                27,
+                86,
+                24
+              ]
+            },
+            {
+              "coordinates": [
+                -2.7,
+                -1.2,
+                -0.7,
+                3.4,
+                2.4,
+                3.4
+              ],
+              "uvNorth": [
+                83,
+                32,
+                86,
+                34
+              ],
+              "uvEast": [
+                86,
+                32,
+                89,
+                34
+              ],
+              "uvSouth": [
+                89,
+                32,
+                92,
+                34
+              ],
+              "uvWest": [
+                80,
+                32,
+                83,
+                34
+              ],
+              "uvUp": [
+                86,
+                29,
+                83,
+                32
+              ],
+              "uvDown": [
+                89,
+                32,
+                86,
+                29
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [
+        -3.5,
+        -3,
+        -4
+      ],
+      "boxes": [
+        {
+          "coordinates": [
+            2.5,
+            0,
+            2,
+            3,
+            3,
+            4
+          ],
+          "textureOffset": [
+            0,
+            25
+          ]
+        },
+        {
+          "coordinates": [
+            1.5,
+            -0.01,
+            0,
+            8,
+            0,
+            8
+          ],
+          "textureOffset": [
+            18,
+            32
+          ]
+        }
+      ],
+      "submodels": [
+        {
+          "id": "player_right_leg",
+          "invertAxis": "xy",
+          "translate": [
+            2.5,
+            1,
+            3
+          ],
+          "rotate": [
+            0,
+            15,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -0.5,
+                -1,
+                -0.5,
+                3,
+                2,
+                3
+              ],
+              "uvNorth": [
+                83,
+                37,
+                86,
+                39
+              ],
+              "uvEast": [
+                86,
+                37,
+                89,
+                39
+              ],
+              "uvSouth": [
+                89,
+                37,
+                92,
+                39
+              ],
+              "uvWest": [
+                80,
+                37,
+                83,
+                39
+              ],
+              "uvUp": [
+                86,
+                34,
+                83,
+                37
+              ],
+              "uvDown": [
+                89,
+                37,
+                86,
+                34
+              ]
+            },
+            {
+              "coordinates": [
+                -0.7,
+                -1.2,
+                -0.7,
+                3.4,
+                2.4,
+                3.4
+              ],
+              "uvNorth": [
+                83,
+                42,
+                86,
+                44
+              ],
+              "uvEast": [
+                86,
+                42,
+                89,
+                44
+              ],
+              "uvSouth": [
+                89,
+                42,
+                92,
+                44
+              ],
+              "uvWest": [
+                80,
+                42,
+                83,
+                44
+              ],
+              "uvUp": [
+                86,
+                39,
+                83,
+                42
+              ],
+              "uvDown": [
+                89,
+                42,
+                86,
+                39
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
